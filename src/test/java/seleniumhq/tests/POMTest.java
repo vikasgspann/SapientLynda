@@ -28,7 +28,7 @@ public class POMTest {
         DocumentationPage dp = hp.documentationLinkClick();
         TestDesignConsiderationPage tdcp = dp.testDesignConsiderationClick();
         String expected = tdcp.pageObjectDesignPatternHeadlineString();
-        String actual = "Page Object Design Pattern";
+        String actual = "Page Object Design Pattern - Wrong one";
 
         Assert.assertEquals(expected,actual);
     }
